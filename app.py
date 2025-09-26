@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.set_page_config(page_title="Aryan Sharma — Music Recommendation System", page_icon="🎵")
+st.set_page_config(page_title="Avinash Awasthi— Music Recommendation System", page_icon="🎵")
 
 @st.cache_data
 def load_data():
@@ -15,14 +15,14 @@ def load_data():
 songs, ratings = load_data()
 
 st.title("🎵 Music Recommendation System")
-st.caption("by Aryan Sharma · Content-based + Collaborative (item-item)")
+st.caption("by Avinash Awasthi · Content-based + Collaborative (item-item)")
 
 with st.sidebar:
     st.header("About")
     st.write("Built by **Avinash Awasthi**")
-    st.write("GitHub: [aryansharma6836-max](https://github.com/aryansharma6836-max)")
-    st.write("LinkedIn: [Aryan Sharma](https://www.linkedin.com/in/aryan-sharma-b24151254)")
-    st.write("Email: aryansharma6836@gmail.com")
+    st.write("GitHub: [Avinash001-tech](https://github.com/Avinash001-tech)")
+    st.write("LinkedIn: [Avinash Awasthi](https://www.linkedin.com/in/avinash-awasthi-mac24/)")
+    st.write("Email: avinashawasthi2003@gmail.com")
 
 @st.cache_data
 def build_content_matrix(df: pd.DataFrame):
@@ -141,7 +141,7 @@ st.markdown(
     """
     <hr/>
     <p style="text-align:center;">
-    Made with ❤️ by <b>Aryan Sharma</b>
+    Made with ❤️ by <b>Avinash Awasthi</b>
     </p>
     """,
     unsafe_allow_html=True
