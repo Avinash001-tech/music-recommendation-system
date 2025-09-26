@@ -19,7 +19,7 @@ st.caption("by Aryan Sharma · Content-based + Collaborative (item-item)")
 
 with st.sidebar:
     st.header("About")
-    st.write("Built by **Aryan Sharma**")
+    st.write("Built by **Avinash Awasthi**")
     st.write("GitHub: [aryansharma6836-max](https://github.com/aryansharma6836-max)")
     st.write("LinkedIn: [Aryan Sharma](https://www.linkedin.com/in/aryan-sharma-b24151254)")
     st.write("Email: aryansharma6836@gmail.com")
