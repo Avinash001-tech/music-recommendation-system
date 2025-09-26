@@ -5,10 +5,10 @@ A Streamlit web app that recommends songs using:
 - **Collaborative Filtering (item-item)** using a small dummy ratings set
 
 ## 👤 Author
-**Aryan Sharma**
-- GitHub: https://github.com/aryansharma6836-max
-- LinkedIn: https://www.linkedin.com/in/aryan-sharma-b24151254
-- Email: aryansharma6836@gmail.com
+**Avinash Awasthi**
+- GitHub: https://github.com/Avinash001-tech
+- LinkedIn: https://www.linkedin.com/in/avinash-awasthi-mac24/
+- Email: avinashawasthi2003@gmail.com
 
 ## 🚀 How to run locally
 ```bash
@@ -20,4 +20,4 @@ streamlit run app.py
 1. Create a new GitHub repo and upload all these files.
 2. Go to Streamlit Cloud → *Deploy a public app from GitHub*.
 3. Set **Main file path** to `app.py` → Deploy.
-4. Your app URL will look like: `https://music-recommendation-aryansharma.streamlit.app`
+
